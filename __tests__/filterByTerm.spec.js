@@ -36,6 +36,6 @@ describe("Filter function", () => {
     const input = [];
     expect(() => {
       filterByTerm(input, "");
-    }).toThrowEror(Error("searchTerm cannot be empty"));
+    }).toThrowError(Error("searchTerm cannot be empty"));
   });
 });
